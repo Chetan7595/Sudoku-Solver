@@ -16,7 +16,7 @@ This project is a Sudoku Solver that uses a combination of OpenCV and a Convolut
 
 - Python 3.x
 - Jupyter Notebook
-- Required Python libraries: 
+- Required Python libraries:
   - TensorFlow/Keras
   - OpenCV
   - NumPy
@@ -32,14 +32,16 @@ This project is a Sudoku Solver that uses a combination of OpenCV and a Convolut
    ```
 
 2. Install the required Python packages:
-  ```
-  pip install -r requirements.txt
-  ```
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 3. Run the Jupyter Notebook:
-  ```
-  jupyter notebook solver.ipynb
-  ```
+
+   ```
+   jupyter notebook solver.ipynb
+   ```
 
 ### Usage
 
@@ -47,6 +49,3 @@ This project is a Sudoku Solver that uses a combination of OpenCV and a Convolut
 2. Preprocessing: The image will be processed to extract the Sudoku grid.
 3. Digit Recognition: The CNN model will recognize the digits in the grid.
 4. Solve the Puzzle: The Sudoku puzzle will be solved, and the solution will be displayed.
-
-
-
